@@ -1,0 +1,27 @@
+{
+	"name": "convert-ical-to-csv",
+	"version": "1.0.0",
+	"description": "A nodejs script to convert ical to csv.",
+	"main": "./dist/convert.js",
+	"scripts": {
+		"create": "npx tsc",
+		"convert": "node ./dist/convert.js --csvfile ./test/test.csv --icalfile ./test/test.ics",
+		"test": " rm -rf ./dist && npm run create && npm run convert"
+	},
+	"keywords": [
+		"node",
+		"ical converter",
+		"es6"
+	],
+	"author": "Ismail Mitchell",
+	"license": "(c) 2023 Ismail Mitchell",
+	"dependencies": {
+		"fast-csv": "^4.3.6",
+		"ics": "^3.5.0",
+		"typescript": "^5.3.2",
+		"yargs": "^17.7.2"
+	},
+	"devDependencies": {
+		"@types/yargs": "^17.0.32"
+	}
+}
