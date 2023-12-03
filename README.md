@@ -37,13 +37,11 @@ To use this converter, follow these steps:
 | Private        | Indicates if the event is private      |
 
 ## Test CSV Example
-"""
 Creates a table that specifies an example CSV input file based on the provided data.
 
 | Subject         | Start Date | Start Time | End Date   | End Time   | All Day Event | Description                    | Location                  | Private |
 |-----------------|------------|------------|------------|------------|---------------|--------------------------------|----------------------------|---------|
 | ExampleSubject  | 12/02/2023 | 5:00 PM    | 12/02/2023 | 5:30 PM    | FALSE         | This is my first ical conversion | North Hollywood Regal Cinemas | TRUE    |
-"""
 
 ## Creator
 
